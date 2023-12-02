@@ -1,0 +1,11 @@
+Per utilizzare il codice python lanciare il comando da un terminale:
+
+python Attack_DoS.py indirizzo_ip_webserver -p porta -s numero_di_socket -ua on/off -log on/off
+
+-p si inserisce il numero della porta la porta (Facoltativo, di default è 80)
+
+-s si inserisce quante socket si vogliono aprire (Facoltativo, di default è 150, consiglio di inserirne 1500/2000) 
+
+-ua si inserisce ON oppure OFF se si vogliono randomizzare gli agent delle richieste (Facoltativo, di default è OFF)
+
+-log si inserisce ON oppure OFF se si vogliono ricevere i log nel terminale (attualmente questa opzione non è stata completata, quindi i log appariranno sempre)
